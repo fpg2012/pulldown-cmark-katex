@@ -1,0 +1,13 @@
+[package]
+name = "pulldown-cmark-katex"
+authors = ["nth233"]
+version = "0.1.0"
+edition = "2021"
+license = "GPL-2.0-or-later"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+katex = "0.4.6"
+# pulldown-cmark = { version = "0.10.3", default-features = false }
+pulldown-cmark = { git = "https://github.com/pulldown-cmark/pulldown-cmark", branch = "branch_0.11" }
